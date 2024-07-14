@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+/* font-family: "DM Sans", sans-serif; */
+/* font-family: "DM Sans", sans-serif; */
+
+/* Nav Bar Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 1515px;
+    height: 1322px;
+    border: 2px solid red;
+    background-color: rgb(176, 150, 224);
+}
+.brand{
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 190px;
+}
+#G{
+    color: rgb(246, 255, 0);
+    font-weight: bolder;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 550px;
+    margin-top: 50px;
+}
+.nav-item{
+    list-style: none;
+    
+}
+.nav-links{
+    display: flex;
+    gap: 60px;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+}
+.banner-text{
+    height: 325px;
+    width: 800px;
+    border: 2px solid gold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 205px;
+}
+.banner-title{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    padding-bottom: 25px;
+    font-size: 50px;
+    font-weight: 800;
+}
+.banner-description{
+    text-align: center;
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    color: rgb(0, 0, 0);
+}
+.explore-button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.explore-button{
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(255, 242, 3);
+    font-family: "DM Sans", sans-serif;
+    border: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+.banner-img-container{
+    width: 1440px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
